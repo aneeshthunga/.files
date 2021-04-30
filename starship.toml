@@ -1,0 +1,18 @@
+[hostname]
+ssh_only = false
+style = "bold dimmed green"
+format = "[$hostname]($style):"
+disabled = false
+
+[username]
+style_user = "bold dimmed blue"
+style_root = "bold red"
+format = "[$user]($style)@"
+show_always = true
+
+[character]
+format = '$symbol '
+success_symbol = '[❯](bold green)'
+error_symbol = '[✗](bold red)'
+vicmd_symbol = '[❮](bold green)'
+disabled = false
