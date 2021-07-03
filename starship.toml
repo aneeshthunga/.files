@@ -1,11 +1,11 @@
 [hostname]
 ssh_only = false
-style = "bold dimmed green"
+style = "bold green"
 format = "[$hostname]($style):"
 disabled = false
 
 [username]
-style_user = "bold dimmed blue"
+style_user = "bold blue"
 style_root = "bold red"
 format = "[$user]($style)@"
 show_always = true
