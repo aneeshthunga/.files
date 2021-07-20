@@ -1,0 +1,9 @@
+#!/bin/bash
+
+filename=$1
+type=$2
+
+touch $filename.$type
+touch $filename.story.$type
+touch $filename.styles.$type
+touch $filename.test.$type
